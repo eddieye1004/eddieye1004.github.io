@@ -1,0 +1,9 @@
+# 海外项目数据库 —— 根域 robots.txt
+# 爬到的是 https://eddieye1004.github.io/ 这一整个 host，
+# 所以路径要写全（/overseas-program-dataset/...），不能沿用子目录那份的相对写法。
+User-agent: *
+Allow: /
+# 数据 JSON 给页面用，不单独给爬虫抓，避免同一份内容两种入口
+Disallow: /overseas-program-dataset/data/
+
+Sitemap: https://eddieye1004.github.io/overseas-program-dataset/sitemap.xml
